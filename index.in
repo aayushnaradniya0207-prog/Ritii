@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Ritii ❤️</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="hearts"></div>
+
+<audio id="music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="musicBtn" onclick="toggleMusic()">
+🎵
+</div>
+
+<section id="welcome" class="page active">
+
+<h1 class="title">
+Hey Ritii ❤️
+</h1>
+
+<p id="typing"></p>
+
+<button onclick="nextPage()">
+Open My Surprise ✨
+</button>
+
+</section>
+
+<section id="photo" class="page">
+
+<div class="photoCard">
+
+<img src="photo.jpg">
+
+</div>
+
+<button onclick="nextPage()">
+Continue ❤️
+</button>
+
+</section>
+
+<section id="message" class="page">
+
+<div class="glass">
+
+<h2>💌</h2>
+
+<p>
+
+Hey Ritii,
+
+<br><br>
+
+I was thinking about the nicest way to ask you this...
+
+and somehow making this little surprise felt much better than sending a simple text.
+
+<br><br>
+
+Every conversation with you somehow becomes my favourite part of the day.
+
+You make ordinary moments feel a little more special.
+
+<br><br>
+
+So...
+
+<br><br>
+
+❤️ <b>Can I steal a little of your time tomorrow?</b>
+
+<br><br>
+
+Nothing fancy.
+
+<br><br>
+
+Just a long conversation,
+
+a few laughs,
+
+lots of random topics,
+
+maybe a little teasing,
+
+and simply enjoying your company.
+
+<br><br>
+
+If you're free,
+
+I'd genuinely love to spend some time with you.
+
+<br><br>
+
+I think tomorrow could become a really beautiful memory.
+
+🌸
+
+</p>
+
+<button onclick="nextPage()">
+One Last Thing ❤️
+</button>
+
+</div>
+
+</section>
+
+<section id="question" class="page">
+
+<h1>
+
+Will you let me steal
+
+a little of your time
+
+tomorrow? ❤️
+
+</h1>
+
+<div class="buttons">
+
+<button id="yesBtn">
+
+Yes 💖
+
+</button>
+
+<button id="noBtn">
+
+I'll Think About It 🤭
+
+</button>
+
+</div>
+
+</section>
+
+<section id="yesPage" class="page">
+
+<h1>
+
+❤️
+
+</h1>
+
+<h2>
+
+You just made my day.
+
+</h2>
+
+<p>
+
+Looking forward to tomorrow already...
+
+😊❤️
+
+</p>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
